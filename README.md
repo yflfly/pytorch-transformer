@@ -1,5 +1,9 @@
 # learn_pytorch
 
+介绍模型的英文网站：
+
+https://huggingface.co/transformers/
+
 代码来源网址：
 
 https://huggingface.co/transformers/quicktour.html
@@ -7,6 +11,8 @@ https://huggingface.co/transformers/quicktour.html
 model hub:
 
 https://huggingface.co/models
+
+github 网址：https://github.com/huggingface/transformers
 
 1、 example_1 情感分析任务 运行结果截图如下所示：
 
