@@ -15,7 +15,8 @@ self.layer = nn.ModuleList([copy.deepcopy(layer) for _ in range(config.num_hidde
 # 下面看其forward函数
 def forward(self, hidden_states, attention_mask, output_all_encoded_layers=True):
     # 看其输入：
-    # hidden_states:根据上面所讲，hidden_states就是embedding_output，其维度为[batch_size, seq_lenght, word_dimension],embedding出来后，多了一个dimension
+    # hidden_states:根据上面所讲，hidden_states就是embedding_output，
+    # 其维度为[batch_size, seq_lenght, word_dimension],embedding出来后，多了一个dimension
     # attention_mask:维度[batch_size, 1, 1, seq_length]
     # (to be completed)
     # output_all_encoder_layers:此函数的输出模式，下面会详细讲解
